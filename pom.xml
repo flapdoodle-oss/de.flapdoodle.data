@@ -175,7 +175,7 @@
                             <classpathScope>test</classpathScope>
                             <mainClass>de.flapdoodle.data.buildsupport.ExtractMarkdownFromCode</mainClass>
                             <arguments>
-                                <argument>${basedir}/src/test/java/de/flapdoodle/pattern/TestExampleReadMeCode.java</argument>
+                                <argument>${basedir}/src/test/java/de/flapdoodle/data/TestExampleReadMeCode.java</argument>
                                 <argument>${project.build.directory}/usage-readme.md</argument>
                             </arguments>
                         </configuration>
