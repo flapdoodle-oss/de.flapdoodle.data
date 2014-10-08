@@ -9,12 +9,12 @@ public class SampleDataDefinition extends AbstractDefinition<SampleData> {
 	public static final SampleDataDefinition INSTANCE = new SampleDataDefinition();
 
 	private SampleDataDefinition() {
-		super(Property.named("foo", Integer.class), Property.named("bar", String.class));
+		super(SampleData.foo, SampleData.bar);
 	}
 
 	@Override
 	public Builder<SampleData> builder() {
-		return new Builder<SampleData>() {
+		return new Builder<SampleData>(properties()) {
 
 			@Override
 			public SampleData build() {

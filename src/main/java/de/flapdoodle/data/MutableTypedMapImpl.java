@@ -25,6 +25,7 @@ public class MutableTypedMapImpl implements MutableTypedMap {
 		return (X) values.put(key, value);
 	}
 
+	@Override
 	public TypedMap asImmutable() {
 		final ImmutableMap<Property<?>, Object> copy = ImmutableMap.copyOf(values);
 		
