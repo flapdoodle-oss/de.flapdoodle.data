@@ -21,4 +21,6 @@ public interface MutableTypedMap extends TypedMap {
 
 	public <X> X set(Property<X> key, X value);
 
+	TypedMap asImmutable();
+
 }

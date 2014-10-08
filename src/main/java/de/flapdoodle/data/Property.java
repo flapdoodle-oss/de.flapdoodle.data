@@ -16,8 +16,18 @@
  */
 package de.flapdoodle.data;
 
+import com.google.common.base.Function;
+
 public final class Property<X> {
 
+	public static final Function<? super Property<?>, String> asName=new Function<Property<?>, String>() {
+		
+		@Override
+		public String apply(Property<?> input) {
+			return input.name();
+		}
+	};
+	
 	private final String _name;
 	private final Class<X> _type;
 
