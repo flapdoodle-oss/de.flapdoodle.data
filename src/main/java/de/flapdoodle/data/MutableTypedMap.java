@@ -17,10 +17,8 @@
 package de.flapdoodle.data;
 
 
-public interface TypedMap {
+public interface MutableTypedMap extends TypedMap {
 
-	public <X> X get(Property<X> key);
-	
-	public boolean contains(Property<?> key);
-	
+	public <X> X set(Property<X> key, X value);
+
 }
