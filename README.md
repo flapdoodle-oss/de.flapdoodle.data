@@ -8,7 +8,7 @@ a java data container
 
 ### Maven
 
-Stable (Maven Central Repository, Released:  - wait 24hrs for [maven central](http://repo1.maven.org/maven2/de/flapdoodle/data/de.flapdoodle.data/maven-metadata.xml))
+Stable (Maven Central Repository, Released: not now - wait 24hrs for [maven central](http://repo1.maven.org/maven2/de/flapdoodle/data/de.flapdoodle.data/maven-metadata.xml))
 
 	<dependency>
 		<groupId>de.flapdoodle.data</groupId>
